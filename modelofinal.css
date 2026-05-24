@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'tesouro'; /* Give it a name */
-  src: url('/treasure_map/MapadoTesouro.otf') format('opentype'), /* Modern format */
-       url('/treasure_map/MapadoTesouro.otf') format('woff');   /* Fallback */
+  src: url('./treasure_map/MapadoTesouro.otf') format('opentype'), /* Modern format */
+       url('./treasure_map/MapadoTesouro.otf') format('woff');   /* Fallback */
   font-weight: normal;
   font-style: normal
 }
@@ -14,7 +14,7 @@
 
 body{
   
-    background-image: url("/imagens/backgroung-map_black.png");
+    background-image: url("./imagens/backgroung-map_black.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
